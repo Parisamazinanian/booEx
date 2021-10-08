@@ -18,9 +18,9 @@ public class booEx {
         Pattern p= Pattern.compile("trap");
         //Create the matcher instance
         Matcher m= p.matcher(inputText.toLowerCase());
-        boolean result=m.find();
+
         // Find the matches and count them
-        if (result){
+        if (m.find()){
             System.out.println("BOO!!");
         }else {
             System.out.println("Relax, there is no trap.");
