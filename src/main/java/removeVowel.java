@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class removeVowel {
     public static void main(String[] args) {
-        vowelRemove("Hello");
+        vowelRemove("I have never seen a thin person drinking Diet Coke.");
 
     }
     public static void vowelRemove(String sourceText ){
@@ -19,7 +19,7 @@ public class removeVowel {
         if(m.find()){
             System.out.println(str.replaceAll("[aeiou]",""));
         }else {
-            System.out.println("Everythin is fine");
+            System.out.println("Everything is fine, No vowels");
         }
 
         }
